@@ -29,7 +29,16 @@ const syncDatabase = async () => {
     console.error('syncDB error:', err);
   }  
 }
+//const { Sequelize } = require('sequelize');
 
+// Option 1: Passing a connection URI
+////const db1 = new Sequelize('postgres', 'postgres', 'Nikkita123', {
+ // host: 'localhost',
+  //dialect:  'postgres'  
+//});
+//test DB
+//db1.authenticate()
+//.then(() =>'Database connected...')
 /* SET UP EXPRESS APPLICATION */
 // Import Express application
 const express = require("express");
@@ -83,3 +92,4 @@ bootApp();
 // Set up express application to use port 5000 as the access point for the server application.
 const PORT = 5000;  // Server application access point port number
 app.listen(PORT, console.log(`Server started on ${PORT}`));
+

@@ -7,7 +7,7 @@
     "start": "node app.js",
     "dev": "nodemon app.js"
   },
-  "author": "Your Name Here",
+  "author": "Kenneth",
   "license": "MIT",
   "dependencies": {
     "express": "^4.17.1",
