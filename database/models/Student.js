@@ -26,8 +26,8 @@ const Student = db.define("student", {
   },
   imageUrl: {
     type: Sequelize.STRING,
-    allowNUll: true
-
+    //allowNUll: true,
+    defaultValue: "https://www.cuny.edu/wp-content/uploads/sites/4/page-assets/home-preview/cuny-upward/D85_3785R_19_crop_hor.jpg"
 
   },
 gpa:{
